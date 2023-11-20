@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Your Name</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Here's a bit about me...</p>
+    </section>
+
+    <section id="work">
+      <h2>My Work</h2>
+      <div class="gallery">
+        <img src="path-to-image1.jpg" alt="Work 1" />
+        <img src="path-to-image2.jpg" alt="Work 2" />
+        <!-- More images -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" name="name" placeholder="Your Name" />
+        <input type="email" id="email" name="email" placeholder="Your Email" />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

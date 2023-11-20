@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f0e3; /* Light pastel background */
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #feeafa; /* Pastel header */
+  color: #333;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin: 10px;
+}
+
+footer {
+  background-color: #bdfee9; /* Pastel footer */
+  color: #333;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
