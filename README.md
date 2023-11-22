@@ -1,2 +1,2 @@
-*OverView*
+_OverView_ <br>
 The portfolio website features a clean, modern design with a full-width header and a semi-transparent navigation bar providing quick access to various sections such as About, Skills, Projects, Timeline, and Contact information. Central to the page is a personal branding statement with a professional profile photo, enhancing the personal touch. The site offers a downloadable resume and incorporates interactive elements like weather widgets and messaging icons, suggesting a user-centric design approach. The muted color palette and strategic use of imagery convey a professional aesthetic, while fixed navigation ensures easy browsing, indicating a thoughtfully crafted user experience tailored for both desktop and mobile users.
