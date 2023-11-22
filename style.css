@@ -1,64 +1,115 @@
-body {
+body,
+html {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f8f0e3; /* Light pastel background */
-  color: #333;
-  line-height: 1.6;
+  height: 100%;
+}
+
+.top-nav {
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.top-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
   margin: 0;
   padding: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.top-nav li {
+  padding: 10px 20px;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+  color: #f0e68c;
+}
+
+.button {
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+.container {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 header {
-  background-color: #feeafa; /* Pastel header */
-  color: #333;
-  text-align: center;
-  padding: 1em 0;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-section {
-  padding: 20px;
+  padding: 100px;
   text-align: center;
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-  margin: 10px;
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-bottom: 10px;
 }
 
-footer {
-  background-color: #bdfee9; /* Pastel footer */
-  color: #333;
-  text-align: center;
-  padding: 1em 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+h1 {
+  color: white;
+  margin: 0;
 }
 
-/* Responsive design for smaller screens */
-@media screen and (max-width: 600px) {
-  nav ul {
-    text-align: center;
-  }
+#about {
+  background: #f8f0e3; /* A soft pastel background */
+  color: #333; /* Dark grey text for readability */
+  padding: 2rem;
+  border-radius: 8px; /* Optional: adds rounded corners */
+  line-height: 1.6; /* Improves readability with more space between lines */
+}
 
-  nav ul li {
-    display: block;
-    margin: 5px 0;
+#about h2 {
+  color: #2c3e50; /* A darker shade for the heading */
+  margin-bottom: 1rem;
+}
+
+.my_favicon {
+  display: block;
+  width: 100px;
+}
+
+Responsive design for smaller screens @media (max-width: 768px) {
+  .profile-img,
+  .my_favicon {
+    width: 75px;
   }
 }
+
+#skills {
+  background: #f7f7f7; /* Light grey background for the skills section */
+  color: #333; /* Dark grey text for readability */
+  padding: 2rem;
+  border-radius: 8px; /* Optional: adds rounded corners */
+  line-height: 1.6; /* Improves readability with more space between lines */
+}
+
+#skills .skills-content p {
+  margin-bottom: 1rem;
+}
+
+#skills strong {
+  color: #2c3e50; /* A darker shade for important terms */
+}
+
+/*Add responsive adjustments as needed */

@@ -3,53 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Portfolio</title>
+    <title>Simarpreet Kaur Gill</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Your Name</h1>
+    <div class="top-nav">
       <nav>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#timeline">TIMELINE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#resume" class="button">RESUME</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+
+    <div class="container">
+      <header>
+        <div class="profile">
+          <img
+            src="profile-pic.jpg"
+            alt="Simarpreet Kaur Gill"
+            class="profile-img"
+          />
+          <h1>Simarpreet Kaur Gill</h1>
+        </div>
+      </header>
+      <!-- Rest of the webpage content -->
+    </div>
 
     <section id="about">
-      <h2>About Me</h2>
-      <p>Here's a bit about me...</p>
+      <h2>About Simar</h2>
+      <p id="welcome-text"></p>
+      <img src="my_favicon.png" alt="my_favicon" class="my_favicon" />
+      <p>
+        Hello there! I'm Simar, a passionate coder with a flair for the poetic
+        and an appetite for adventure in the realm of lines—both of code and of
+        verse. When I'm not busy debugging or deploying, you can find me weaving
+        words into poetry or losing myself in the quick-witted banter of Gilmore
+        Girls.
+      </p>
+      <p>
+        My love for tea and coffee knows no bounds; they are my trusty
+        companions through marathon coding sessions and creative writing
+        escapades. And when the screens and pages blur, you'll find me on the
+        badminton court, serving and smashing with the same enthusiasm I bring
+        to my professional pursuits.
+      </p>
+      <p>
+        Whether it's the rhythmic pattern of a well-structured poem or the
+        structured logic of clean code, I find joy in the balance and blend of
+        creativity and order. Let's connect and explore the beautiful chaos of
+        life together!
+      </p>
     </section>
 
-    <section id="work">
-      <h2>My Work</h2>
-      <div class="gallery">
-        <img src="path-to-image1.jpg" alt="Work 1" />
-        <img src="path-to-image2.jpg" alt="Work 2" />
-        <!-- More images -->
+    <section id="skills">
+      <h2>Technical Skills & Knowledge</h2>
+      <div class="skills-content">
+        <p>
+          As a dedicated student of computing science, I have garnered a robust
+          foundation in system-oriented programming languages
+          <strong>C and C++</strong>, which formed the backbone of my
+          introduction to the world of computing (CMPT 130) and deepened further
+          with advanced concepts in my subsequent coursework (CMPT 135).
+        </p>
+
+        <p>
+          My journey through <strong>object-oriented programming</strong> and
+          data structures (CMPT 225) has equipped me with the skills to
+          implement and evaluate essential data structures such as stacks,
+          queues, lists, search trees, and hash tables, along with proficiency
+          in efficient sorting algorithms and time-space efficiency analysis.
+        </p>
+
+        <p>
+          The art of communication has not eluded me; in CMPT 105W, I mastered
+          the fundamentals of conveying technical information succinctly and
+          persuasively, ensuring clarity and conciseness are at the forefront,
+          whether it's through written or verbal means.
+        </p>
+
+        <p>
+          Through CMPT 354, I've explored the intricacies of data
+          representation, diving into data models, database systems, and
+          security, giving me a well-rounded perspective on data management and
+          retrieval.
+        </p>
+
+        <p>
+          The principles of software development have been ingrained in me via
+          CMPT 276, where I honed my skills in software project management and
+          the iterative development process, utilizing modern languages and
+          tools such as <strong>React, HTML, CSS, JavaScript</strong>, and
+          collaborative platforms like <strong>GitHub</strong>.
+        </p>
       </div>
     </section>
-
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <form id="contact-form">
-        <input type="text" id="name" name="name" placeholder="Your Name" />
-        <input type="email" id="email" name="email" placeholder="Your Email" />
-        <textarea
-          id="message"
-          name="message"
-          placeholder="Your Message"
-        ></textarea>
-        <button type="submit">Send</button>
-      </form>
-    </section>
-
-    <footer>
-      <p>&copy; 2023 Your Name</p>
-    </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
