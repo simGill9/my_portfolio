@@ -64,11 +64,25 @@ header {
   border-radius: 50%;
   border: 5px solid white;
   margin-bottom: 10px;
+  transition: transform 0.3s ease; /* Animate the transform property */
+}
+
+.profile-img:hover {
+  transform: scale(
+    1.1
+  ); /* Enlarge the image to 110% of its original size on hover */
 }
 
 h1 {
   color: white;
   margin: 0;
+  transition: transform 0.3s ease; /* Animate the transform property */
+}
+
+h1:hover {
+  transform: scale(
+    1.1
+  ); /* Enlarge the image to 110% of its original size on hover */
 }
 
 #about {
