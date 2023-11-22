@@ -21,3 +21,7 @@ GitHub Actions are automated tasks that can be set up in a GitHub repository to 
 ## What technology stack did you use to develop this website?
 
 The website was developed using HTML, CSS, and JavaScript, which are standard technologies for building static web pages, along with the GitHub Pages platform for hosting.
+
+## Deployed
+
+link
