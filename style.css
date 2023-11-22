@@ -84,14 +84,16 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.my_favicon {
-  display: block;
-  width: 100px;
+.about_img {
+  float: left; /* Aligns image to the left */
+  width: 250px; /* Increased size */
+  margin-right: 1rem; /* Adds space between the image and the text */
+  border-radius: 8px; /* Rounded corners for the image */
 }
 
 Responsive design for smaller screens @media (max-width: 768px) {
   .profile-img,
-  .my_favicon {
+  .about_img {
     width: 75px;
   }
 }
